@@ -1,3 +1,5 @@
+
+
 #### 医疗知识图谱自动问答系统
 ## 生成词典
 运行 test/java/com/GenerateData.java
@@ -7,5 +9,6 @@
 运行 test/java/com/AppGenerateDataDemo.java insertNeo4j 方法
 ## 启动 spring boot
 运行 src/main/java/com/App.java main 方法
+**注意：运行前请配置 `application.yml` 或 `application.properties`，包含 `vocabPath`、`vocab`、`modelPath`、`dataPath`、`questionPath` 及 `vocabSize` 等参数。**
 ## 运行的效果
 ![Image](./img/1.jpg)
